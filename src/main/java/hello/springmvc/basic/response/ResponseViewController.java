@@ -18,6 +18,7 @@ public class ResponseViewController {
         return mav;
     }
 
+    // 권장방법
     @RequestMapping("/response-view-v2")
     public String responseViewV2(Model model){
         model.addAttribute("data","hello");

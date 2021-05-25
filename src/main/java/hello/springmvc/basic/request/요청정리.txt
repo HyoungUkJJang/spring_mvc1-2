@@ -1,0 +1,5 @@
+요청은 크게 세가지로 들어온다.
+
+1. 쿼리 파라미터의 Get방식
+2. Post 방식의 html form 데이터
+3. 1,2를 제외한 데이터 요청 크게 json이 있다. > 요청 파라미터 들과는 관계가 없음(request.getparameter, requestbody, modelattribute 등)
